@@ -1,5 +1,17 @@
-numpy==1.15.0
-pandas==0.23.3
-tensorflow-gpu==1.10.0
-keras==2.2.2
-matplotlib==2.2.2
+name: lstm
+channels:
+  - defaults
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - anaconda
+  - python=3.5
+  - numpy=1.15.0
+  - pandas=0.23.3
+  - tensorflow=1.10.0
+  - keras=2.2.2
+  - matplotlib=2.2.2
+  - jupyter_nbextensions_configurator
+prefix: C:\ProgramData\Miniconda3\envs\lstm
+  
